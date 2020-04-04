@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-03T06:53:51.013Z</updated>
+  <updated>2020-04-04T02:51:48.179Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Chrome折腾记一：Chrome系浏览器的灵魂——插件的安装方法</title>
+    <link href="http://yoursite.com/2020/04/04/Chrome%E7%B3%BB%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%81%B5%E9%AD%82%EF%BC%8C%E5%87%A0%E4%B8%AAChrome%E7%B3%BB%E6%B5%8F%E8%A7%88%E5%99%A8%E5%BF%85%E5%A4%87%E7%9A%84%E6%8F%92%E4%BB%B6/"/>
+    <id>http://yoursite.com/2020/04/04/Chrome%E7%B3%BB%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%81%B5%E9%AD%82%EF%BC%8C%E5%87%A0%E4%B8%AAChrome%E7%B3%BB%E6%B5%8F%E8%A7%88%E5%99%A8%E5%BF%85%E5%A4%87%E7%9A%84%E6%8F%92%E4%BB%B6/</id>
+    <published>2020-04-04T03:00:22.000Z</published>
+    <updated>2020-04-04T02:51:48.179Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;说到上网，每个人的电脑上都一定会有“浏览器”这一类软件。&lt;/p&gt;
+&lt;p&gt;国内比较常见的浏览器有QQ、搜狗、360、百分等等，这些都是chromium内核的浏览器即chrome系，换句话来说，就是谷歌浏览器&lt;strong&gt;换了个皮肤，还慢的一批&lt;/strong&gt;，不过再怎么说
+        
+      
+    
+    </summary>
+    
+    
+      <category term="电脑" scheme="http://yoursite.com/categories/%E7%94%B5%E8%84%91/"/>
+    
+    
+      <category term="教程" scheme="http://yoursite.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="浏览器" scheme="http://yoursite.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>这个博客有什么作用？为什么要创建这个博客？</title>

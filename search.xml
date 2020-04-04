@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Chrome折腾记一：Chrome系浏览器的灵魂——插件的安装方法</title>
+    <url>/2020/04/04/Chrome%E7%B3%BB%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%81%B5%E9%AD%82%EF%BC%8C%E5%87%A0%E4%B8%AAChrome%E7%B3%BB%E6%B5%8F%E8%A7%88%E5%99%A8%E5%BF%85%E5%A4%87%E7%9A%84%E6%8F%92%E4%BB%B6/</url>
+    <content><![CDATA[<p>说到上网，每个人的电脑上都一定会有“浏览器”这一类软件。</p>
+<p>国内比较常见的浏览器有QQ、搜狗、360、百分等等，这些都是chromium内核的浏览器即chrome系，换句话来说，就是谷歌浏览器<strong>换了个皮肤，还慢的一批</strong>，不过再怎么说他们本质上还是<strong>谷歌浏览器</strong>，还是可以安装谷歌浏览器支持的各种插件的。  </p>
+<p>  什么？你和我说你不知道插件是什么？</p>
+<h6 id="你这么多年网白上了。"><a href="#你这么多年网白上了。" class="headerlink" title="你这么多年网白上了。"></a><em><del>你这么多年网白上了。</del></em></h6><p>  诶，等等，别走别走，开个玩笑嘛，这就教你(o゜▽゜)o☆  </p>
+<p>—————————————正文开始———————————————<br>别的咱也不多说了，直接从插件（扩展）的安装开始。  </p>
+<p>各种浏览器的插件安装方法都是都是大同小异的，基本流程都是：商店 → 搜索 → 安装 → 结束。  </p>
+<h6 id="前提是你是自带梯子的巴啦啦小魔仙可以访问chrome商店。"><a href="#前提是你是自带梯子的巴啦啦小魔仙可以访问chrome商店。" class="headerlink" title="前提是你是自带梯子的巴啦啦小魔仙可以访问chrome商店。"></a><em><del>前提是你是自带梯子的巴啦啦小魔仙可以访问chrome商店。</del></em></h6><p>  这时就小伙伴会问了：“诶Paxton你说的不对啊，我的XX浏览器都有商店啊？”  </p>
+<p>  但是这些第三方插件商店里面的插件普遍都是又少又旧，有些甚至常用插件都搜不到。  </p>
+<p>  因此在这里我给大家推荐一个网站：<a href="https://www.gugeapps.net/webstore/new" target="_blank" rel="noopener">https://www.gugeapps.net/webstore/new</a>  </p>
+<p>  <a href="https://imgchr.com/i/GdyW3q" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/04/GdyW3q.md.png" alt="GdyW3q.md.png"></a><br>  推荐网站  </p>
+<p>  官方商店（下图）<br>  <a href="https://imgchr.com/i/GdyhvV" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/04/GdyhvV.md.png" alt="GdyhvV.md.png"></a>  </p>
+<p>  是不是有内味了( •̀ ω •́ )✧简直亲兄弟好吧，虽然官方安装不用那么麻烦 </p>
+<p>  首先我们先来搜索一个谷歌浏览器必备的插件adb block<br>  <a href="https://imgchr.com/i/GdyXgx" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/04/GdyXgx.md.png" alt="GdyXgx.md.png"></a>  </p>
+<p>  直接按照网站的指引进行下载即可，亲测无毒无捆绑  </p>
+<p>  接下来以QQ浏览器进行举例  </p>
+<p>  下载完成后，我们有两种办法进行安装。  </p>
+<h4 id="第一种：拖拽安装法"><a href="#第一种：拖拽安装法" class="headerlink" title="第一种：拖拽安装法"></a>第一种：拖拽安装法</h4><p>  <a href="https://imgchr.com/i/Gd6JMV" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/04/Gd6JMV.png" alt="Gd6JMV.png"></a>  </p>
+<p>首先将我们得到的这个压缩文件的后缀名.zip 更换为 .crx（没有显示后缀名的自行百度解决）  </p>
+<p>然后找到QQ浏览器的右上角的三杠<br><a href="https://imgchr.com/i/Gd6rxx" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/04/Gd6rxx.jpg" alt="Gd6rxx.jpg"></a>  <a href="https://imgchr.com/i/Gd6yM6" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/04/Gd6yM6.jpg" alt="Gd6yM6.jpg"></a>  </p>
+<p>选择应用中心进入，在页面上方选择管理我的应用<br><a href="https://imgchr.com/i/Gd62ZD" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/04/Gd62ZD.png" alt="Gd62ZD.png"></a><br>接着返回桌面拖动你下载的crx文件到这个页面松开鼠标，就可以成功安装了<br><a href="https://imgchr.com/i/GdhZfe" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/04/GdhZfe.jpg" alt="GdhZfe.jpg"></a>  </p>
+<p>  提示：此方法仅适用于部分浏览器以及部分插件</p>
+<h4 id="方法二：解压安装法"><a href="#方法二：解压安装法" class="headerlink" title="方法二：解压安装法"></a>方法二：解压安装法</h4><p>  还是看回我们刚刚下载的.zip压缩包<br>  <a href="https://imgchr.com/i/Gd4Aun" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/04/Gd4Aun.png" alt="Gd4Aun.png"></a><br>  右键选择解压到……就可以得到下图所示的一个文件夹 </p>
+<p>  <a href="https://imgchr.com/i/Gd4M34" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/04/Gd4M34.png" alt="Gd4M34.png"></a><br>  <strong>注意这个文件夹一定要是打开直接可以看到上图所示的文件的，不能是像下图这样的套娃文件夹</strong><br>  <a href="https://imgchr.com/i/Gd4g58" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/04/Gd4g58.png" alt="Gd4g58.png"></a><br>  如果是这种套娃文件夹就需要手动把里面的文件拖出来  </p>
+<p>  接着我们打开浏览器，这里以edge chrome版浏览器进行举例  </p>
+<p>  还是找到你的浏览器的扩展管理页<br>  <a href="https://imgchr.com/i/Gd5ZMd" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/04/Gd5ZMd.md.png" alt="Gd5ZMd.md.png"></a>  </p>
+<p>  注意一定要把开发者模式打开，然后选择加载解压缩的扩展  </p>
+<p>  <a href="https://imgchr.com/i/Gd5Wo6" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/04/Gd5Wo6.md.png" alt="Gd5Wo6.md.png"></a>  </p>
+<p>  选择后就可以在浏览器的扩展管理页面看到他啦  </p>
+<p>  <a href="https://imgchr.com/i/Gd5HOA" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/04/Gd5HOA.png" alt="Gd5HOA.png"></a>  </p>
+<p>  这种方法适用于所有chrome系浏览器</p>
+<p>  还有一点要注意，就是解压出来的那个文件夹是绝对不能删掉的，删掉了扩展就没了，因此在安装浏览器扩展的时候一定要选好一个位置集中放置扩展的文件。</p>
+<p>  其实还有传说中的第三种方法，我们下期再聊</p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>浏览器</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>这个博客有什么作用？为什么要创建这个博客？</title>
     <url>/2020/04/03/%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%BD%9C%E7%94%A8%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%90%AD%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%EF%BC%9F/</url>
     <content><![CDATA[<p>主要是因为 <em><del>作业写完了之后</del></em> 闲的没事干，便 “没事找事” 地制作了这个个人博客，具体写些什么也还没想好，就先当他是一个电脑/手机的玩机小技巧的分享站和我的树洞好了。  </p>
