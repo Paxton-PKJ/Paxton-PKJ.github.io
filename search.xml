@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Chrome折腾记二——几个常用插件的推荐以及插件安装的第三种方法</title>
+    <url>/2020/04/05/Chrome%E6%8A%98%E8%85%BE%E8%AE%B0%E4%BA%8C%E2%80%94%E2%80%94%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6%E7%9A%84%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p><strong>前排提示：装完谷歌上网助手之后可以先跳到最后看第三种安装方法</strong></p>
+<h2 id="一、谷歌上网助手"><a href="#一、谷歌上网助手" class="headerlink" title="一、谷歌上网助手"></a>一、谷歌上网助手</h2><p>说到插件，最不能不提的就是这谷歌访问助手，可以让你几乎以感受不到墙的存在而访问谷歌服务（别的你就别想了我知道你在想什么,(￣_￣)、 ）<br><a href="https://imgchr.com/i/GsPCw9" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/06/GsPCw9.png" alt="GsPCw9.png"></a></p>
+<p>有图有真相<br><a href="https://imgchr.com/i/GsPVSK" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/06/GsPVSK.md.png" alt="GsPVSK.md.png"></a></p>
+<p>注意安装完插件之后需要登录</p>
+<h2 id="二、广告终结者-adblock"><a href="#二、广告终结者-adblock" class="headerlink" title="二、广告终结者 / adblock"></a>二、广告终结者 / adblock</h2><p>你还在因为满屏广告而苦恼吗？这个插件可以解你忧愁（两款插件效果类似，我比较喜欢前者）<br><a href="https://imgchr.com/i/Gsi8E9" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/06/Gsi8E9.png" alt="Gsi8E9.png"></a><br>（上图为广告终结者）</p>
+<p><a href="https://imgchr.com/i/GsF3M8" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/06/GsF3M8.md.png" alt="GsF3M8.md.png"></a><br>屏蔽前（红圈处均为广告）</p>
+<p><a href="https://imgchr.com/i/GsFtaj" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/06/GsFtaj.md.png" alt="GsFtaj.md.png"></a><br>屏蔽后，干净清爽</p>
+<p>对于不想看到的部分还可以在右键手动屏蔽</p>
+<h2 id="三、tampermonkey（油猴）"><a href="#三、tampermonkey（油猴）" class="headerlink" title="三、tampermonkey（油猴）"></a>三、tampermonkey（油猴）</h2><p>油猴是用来加载一些额外添加的代码的，可以给你的某个网络页面加入各种功能，譬如网页美化，一键下载，vip解析等等</p>
+<p>总之装他就对了</p>
+<p><a href="https://imgchr.com/i/GsmVp9" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/06/GsmVp9.png" alt="GsmVp9.png"></a></p>
+<p>刚刚安装的油猴是没有带任何脚本的，需要自行安装</p>
+<p>这里推荐<a href="https://greasyfork.org/zh-CN" target="_blank" rel="noopener">greasy fork</a>网站</p>
+<p><a href="https://imgchr.com/i/Gsm0AS" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/06/Gsm0AS.md.png" alt="Gsm0AS.md.png"></a></p>
+<p>具体都有什么好东西就靠你们自己发掘啦（你懂得）</p>
+<p>直接搜索点击安装即可，安装完需刷新页面才能生效</p>
+<p>##四、第三种安装方法<br>既然已经拥有了谷歌上网助手，那我们何不投入正版的怀抱呢？<br><a href="https://chrome.google.com/webstore/category/extensions?h1=zh" target="_blank" rel="noopener">chrome网上应用店</a></p>
+<p>确保你的谷歌上网助手已经登录并开启，直接搜索并添加即可，一键解决<br><a href="https://imgchr.com/i/GsuXfe" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/06/GsuXfe.md.png" alt="GsuXfe.md.png"></a></p>
+<p>更多Chrome技巧，请期待下期Chrome折腾记三</p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>浏览器</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>如何打造和我一样的爆款博客？基于hexo + github实现免费个人博客搭建</title>
     <url>/2020/04/05/%E5%A6%82%E4%BD%95%E6%89%93%E9%80%A0%E5%92%8C%E6%88%91%E4%B8%80%E6%A0%B7%E7%9A%84%E7%88%86%E6%AC%BE%E5%8D%9A%E5%AE%A2%EF%BC%9F%E5%9F%BA%E4%BA%8Ehexo%20+%20github%E5%AE%9E%E7%8E%B0%E5%85%8D%E8%B4%B9%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
     <content><![CDATA[<h4 id="一、下载安装"><a href="#一、下载安装" class="headerlink" title="一、下载安装"></a>一、下载安装</h4><p>实现hexo + github的博客搭建需要下载一些东西<br><strong>Node.js</strong>：<a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/</a><br><strong>git for windows</strong>，国内用官网下载会比较慢，这里我们用镜像站下载：<a href="https://npm.taobao.org/mirrors/git-for-windows" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows</a></p>
@@ -60,7 +91,7 @@
   </entry>
   <entry>
     <title>Chrome折腾记一：Chrome系浏览器的灵魂——插件的安装方法</title>
-    <url>/2020/04/04/Chrome%E7%B3%BB%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%81%B5%E9%AD%82%EF%BC%8C%E5%87%A0%E4%B8%AAChrome%E7%B3%BB%E6%B5%8F%E8%A7%88%E5%99%A8%E5%BF%85%E5%A4%87%E7%9A%84%E6%8F%92%E4%BB%B6/</url>
+    <url>/2020/04/04/Chrome%E6%8A%98%E8%85%BE%E8%AE%B0%E4%B8%80%E2%80%94%E2%80%94Chrome%E7%B3%BB%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%81%B5%E9%AD%82%E2%80%94%E2%80%94%E6%8F%92%E4%BB%B6%E7%9A%84%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<p>说到上网，每个人的电脑上都一定会有“浏览器”这一类软件。</p>
 <p>国内比较常见的浏览器有QQ、搜狗、360、百分等等，这些都是chromium内核的浏览器即chrome系，换句话来说，就是谷歌浏览器<strong>换了个皮肤，还慢的一批</strong>，不过再怎么说他们本质上还是<strong>谷歌浏览器</strong>，还是可以安装谷歌浏览器支持的各种插件的。  </p>
 <p>  什么？你和我说你不知道插件是什么？<br>  <strong><em><del>你这么多年网白上了。</del></em></strong>   </p>
