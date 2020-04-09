@@ -149,6 +149,7 @@
 <p>不不不，想要打造和我一样的爆款博客只有初始简陋主题怎么行</p>
 <p>输入<code>git clone https://github.com/Shen-Yu/hexo-theme-ayer.git themes/ayer</code>来安装和我一样的ayer主题</p>
 <p>更多主题自行百度即可</p>
+<p><a href="https://imgchr.com/i/G5ePUJ" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/09/G5ePUJ.png" alt="G5ePUJ.png"></a><br>主题下载完成后需要把hexo根目录下的_config.yml内的theme的值修改为对应的主题名称即可</p>
 <p>最后hexo d -g上传，你的精美个人博客就搭建完成了</p>
 
       
@@ -458,20 +459,7 @@
 <script src="/js/lazyload.min.js"></script>
 
 
-<script>
-  try {
-    var typed = new Typed("#subtitle", {
-      strings: ['面朝大海，春暖花开', '愿你一生努力，一生被爱', '不恋过往，放眼未来'],
-      startDelay: 0,
-      typeSpeed: 100,
-      loop: true,
-      backSpeed: 150,
-      showCursor: true
-    });
-  } catch (err) {
-  }
-
-</script>
+<script>// 打字机代码移到layout.ejs</script>
 
 
 
@@ -627,7 +615,7 @@
     
     
     <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="52"
-        src="//music.163.com/outchain/player?type=2&id=477982&auto=1&height=32"></iframe>
+        src="//music.163.com/outchain/player?type=2&id=477982&auto=0&height=32"></iframe>
 </div>
 
 <style>
@@ -641,25 +629,24 @@
     
   </div>
   
-  <!-- 一言API -->
-  <!-- 现代写法，推荐 -->
-  <!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
-  <script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
-  <!--End-->
-  <script>
-    fetch('https://v1.hitokoto.cn')
-      .then(function (res){
-        return res.json();
-      })
-      .then(function (data) {
-        var hitokoto = document.getElementById('hitokoto');
-        hitokoto.innerText = data.hitokoto + '——【' + data.from + '】';
-      })
-      .catch(function (err) {
-        console.error(err);
-      })
-  </script>
+<!-- 一言API -->
+<!-- 现代写法，推荐 -->
+<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+<!--End-->
+<script>
+  fetch('https://v1.hitokoto.cn/?c=d')
+  .then(res=>{return res.json()})
+  .then((data)=>{
+    var typed = new Typed('#subtitle',{
+      strings:[data.hitokoto + '——【' + data.from + '】'],
+      startDelay:0,
+      typeSpeed:100,
+      loop:true,
+      backSpeed:150,
+      showCursor:true})
+})
+</script>
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"superSample":2,"width":150,"height":300,"position":"left","hOffset":80,"vOffset":-35},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.2},"log":false});</script></body>
-
 </html>

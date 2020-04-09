@@ -80,6 +80,7 @@
 <p>不不不，想要打造和我一样的爆款博客只有初始简陋主题怎么行</p>
 <p>输入<code>git clone https://github.com/Shen-Yu/hexo-theme-ayer.git themes/ayer</code>来安装和我一样的ayer主题</p>
 <p>更多主题自行百度即可</p>
+<p><a href="https://imgchr.com/i/G5ePUJ" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/09/G5ePUJ.png" alt="G5ePUJ.png"></a><br>主题下载完成后需要把hexo根目录下的_config.yml内的theme的值修改为对应的主题名称即可</p>
 <p>最后hexo d -g上传，你的精美个人博客就搭建完成了</p>
 ]]></content>
       <categories>
