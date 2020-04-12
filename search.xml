@@ -26,20 +26,20 @@
 <p><font color=red>按照上图找到install.wim文件并选择</font></p>
 <p>选择完毕之后设置应道驱动器和安装磁盘的位置（一般情况下均选择C盘）</p>
 <p><font color=red>注意：开始安装前应对C盘进行格式化，文件格式设置为NTFS</font>（如果本就是NTFS则格式化时保持不变）</p>
-<p>接着在选项的版本里面选择<strong>windows专业工作站版</strong>（功能最全最完整）若是系统配置较差可选择其他版本</p>
+<p>接着在选项的版本里面选择<strong>windows10专业工作站版</strong>（功能最全最完整）若是系统配置较差可选择其他版本</p>
 <p>以上内容全部设置完毕后便可直接点击开始安装（若弹出窗口不必理会直接下一步即可）</p>
 <p>等待进度条完成，拔掉u盘重启电脑即可进入新系统</p>
 <h2 id="方法二：直接安装法（全新）"><a href="#方法二：直接安装法（全新）" class="headerlink" title="方法二：直接安装法（全新）"></a>方法二：直接安装法（全新）</h2><p>直接安装法（全新）适用于电脑可以开机并且需要完全重装不保留用户数据的情况，不需要u盘</p>
-<h3 id="（1）-系统镜像下载"><a href="#（1）-系统镜像下载" class="headerlink" title="（1） 系统镜像下载"></a>（1） 系统镜像下载</h3><p>和方法一致</p>
+<h3 id="（1）-系统镜像下载"><a href="#（1）-系统镜像下载" class="headerlink" title="（1） 系统镜像下载"></a>（1） 系统镜像下载</h3><p>和方法一相同</p>
 <h3 id="（2）安装工具-1"><a href="#（2）安装工具-1" class="headerlink" title="（2）安装工具"></a>（2）安装工具</h3><p>同样使用微PE，直接点击<strong>立即安装进系统</strong>即可<br><a href="https://imgchr.com/i/Gb2aQK" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/11/Gb2aQK.png" alt="Gb2aQK.png"></a></p>
 <h3 id="（3）系统安装-1"><a href="#（3）系统安装-1" class="headerlink" title="（3）系统安装"></a>（3）系统安装</h3><p>安装完成重启电脑，不出意外开机过程中你应该可以看到一个系统选择的页面</p>
 <p>一个是你原本的系统，还有一个标着<strong>微PE工具箱</strong>，通过↑↓键选择后者进入</p>
 <p>之后与方法一相同</p>
-<h2 id="方法三：直接安装法（直接升级）"><a href="#方法三：直接安装法（直接升级）" class="headerlink" title="方法三：直接安装法（直接升级）"></a>方法三：直接安装法（直接升级）</h2><p>直接安装法（直接升级）适用于系统版本在win10以下，且电脑可以正常启动，并且想保留用户数据的情况，不需要U盘</p>
-<h3 id="（1）下载系统下载器"><a href="#（1）下载系统下载器" class="headerlink" title="（1）下载系统下载器"></a>（1）下载系统下载器</h3><p><a href="https://www.microsoft.com/zh-cn/software-download/windows10" target="_blank" rel="noopener">微软官方win10下载器</a><br>点击<strong>直接下载该工具</strong></p>
-<h3 id="（2）系统安装"><a href="#（2）系统安装" class="headerlink" title="（2）系统安装"></a>（2）系统安装</h3><p>直接安装工具引导进行即可，注意<font color=red>C盘应至少留有10GB空余空间才可进行安装</font>（最好15GB以上，小于10GB可能出现安装失败）</p>
-<h2 id="结语："><a href="#结语：" class="headerlink" title="结语："></a>结语：</h2><p>上面介绍的三种方法前两种适用于任何7——10的windows版本安装</p>
-<p>第三种方法仅适用于win7与win8直接升级到win10</p>
+<h2 id="方法三：直接安装法（直接升级）"><a href="#方法三：直接安装法（直接升级）" class="headerlink" title="方法三：直接安装法（直接升级）"></a>方法三：直接安装法（直接升级）</h2><p>直接安装法（直接升级）适用于系统版本在win10以下（即win7、win8、win8.1），且电脑可以正常启动，并且想保留用户数据的情况，不需要U盘</p>
+<h3 id="（1）下载系统下载器"><a href="#（1）下载系统下载器" class="headerlink" title="（1）下载系统下载器"></a>（1）下载系统下载器</h3><p><a href="https://www.microsoft.com/zh-cn/software-download/windows10" target="_blank" rel="noopener">微软官方win10下载器</a><br>点击按钮下载即可</p>
+<h3 id="（2）系统安装"><a href="#（2）系统安装" class="headerlink" title="（2）系统安装"></a>（2）系统安装</h3><p>直接按照工具引导进行即可，注意<font color=red>C盘应至少留有10GB空余空间才可进行安装</font>（最好15GB以上，小于10GB可能出现安装失败）</p>
+<h2 id="结语："><a href="#结语：" class="headerlink" title="结语："></a>结语：</h2><p>上面介绍的三种方法前两种适用于任何xp—10的windows版本全新安装</p>
+<p>第三种方法仅适用于win7、win8、win8.1直接升级到win10</p>
 ]]></content>
       <categories>
         <category>电脑</category>
@@ -71,6 +71,45 @@
 <h2 id="四、第三种安装方法"><a href="#四、第三种安装方法" class="headerlink" title="四、第三种安装方法"></a>四、第三种安装方法</h2><p>既然已经拥有了谷歌上网助手，那我们何不投入正版的怀抱呢？<br><a href="https://chrome.google.com/webstore/category/extensions?h1=zh" target="_blank" rel="noopener">chrome网上应用店</a></p>
 <p>确保你的谷歌上网助手已经登录并开启，直接搜索并添加即可，一键解决<br><a href="https://imgchr.com/i/GsuXfe" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/06/GsuXfe.md.png" alt="GsuXfe.md.png"></a></p>
 <p>更多Chrome技巧，请期待下期Chrome折腾记三</p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>浏览器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows折腾记二——Microsoft office的正版安装以及win10系统激活方法</title>
+    <url>/2020/04/05/Windows%E6%8A%98%E8%85%BE%E8%AE%B0%E4%BA%8C%E2%80%94%E2%80%94Microsoft%20office%E7%9A%84%E6%AD%A3%E7%89%88%E5%AE%89%E8%A3%85%E5%8F%8Awin10%E7%B3%BB%E7%BB%9F%E6%BF%80%E6%B4%BB%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h2 id="一、Microsoft-office的正版安装与激活（非破解）"><a href="#一、Microsoft-office的正版安装与激活（非破解）" class="headerlink" title="一、Microsoft office的正版安装与激活（非破解）"></a>一、Microsoft office的正版安装与激活（非破解）</h2><p>不管是个人电脑还是办公电脑，office是不可缺少的一套软件，但因为它的正版价格昂贵，使得许多人投入了wps的怀抱，但是出于对广告的厌恶，今天我便来谈谈怎么通过白嫖方法免费使用正版office软件</p>
+<h3 id="（1）工具下载"><a href="#（1）工具下载" class="headerlink" title="（1）工具下载"></a>（1）工具下载</h3><p>这里我推荐一个office的下载工具<a href="https://otp.landian.vip/zh-cn/" target="_blank" rel="noopener">office tool plus</a>这个工具可以很方便地下载office的原版纯净安装文件</p>
+<p>下载完成并解压，右键以<strong>管理员身份</strong>打开文件夹内的<strong>Office Tool Plus.exe</strong><br><a href="https://imgchr.com/i/GqyQF1" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/12/GqyQF1.png" alt="GqyQF1.png"></a></p>
+<h3 id="（2）office部署"><a href="#（2）office部署" class="headerlink" title="（2）office部署"></a>（2）office部署</h3><p>部署——下载office安装包</p>
+<p><font color=red>注意：在安装前应将电脑上原有的office版本完全删除</font></p>
+<p>点击工具箱——移除office，将三个移除方式全部执行一次</p>
+<p><a href="https://imgchr.com/i/GqIixs" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/12/GqIixs.png" alt="GqIixs.png"></a></p>
+<p>移除完毕，返回部署页面</p>
+<p>目前最新的office版本是office 2019，如果是win7安装office只能装到2016版本，<strong>2019不支持win7</strong>，安装方法相同</p>
+<p><a href="https://imgchr.com/i/GqIHoT" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/12/GqIHoT.png" alt="GqIHoT.png"></a></p>
+<p>首先选择产品，这里我们选择<strong>office专业增强版2019批量版</strong>应用程序选择office最常用的三件套就可以了，有其他需要可以自行选择</p>
+<p><font color=red>注意：不管选择哪个版本，都要选择<strong>批量版</strong>安装，不然后面激活会比较麻烦</font></p>
+<p>接着选择语言包，照着图片选择即可，记得产品和语言包前面的勾都要打上</p>
+<p>注意右侧的安装设置</p>
+<p>体系架构：由于windows折腾记一我教大家安装的是64位版本，这里我们选择64即可，若是不知道体系架构，可以在 此电脑——右键属性 查看</p>
+<p>通道：2019版本选择office 2019企业长期版就可以了，其他office版本选择半年通道</p>
+<p>安装方式：离线安装</p>
+<p>安装模块：可以随意，若是一种安装失败可以切换到另一种</p>
+<p>全部选择完毕之后点击部署，等待下载完成按照指引就可以安装了</p>
+<h3 id="（3）office激活"><a href="#（3）office激活" class="headerlink" title="（3）office激活"></a>（3）office激活</h3><p>安装完成当然还不够，不激活这也只是个摆设</p>
+<p>office tool进入激活页面<br><a href="https://imgchr.com/i/Gqbngg" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/12/Gqbngg.png" alt="Gqbngg.png"></a></p>
+<p>首先选择许可证，在下拉菜单内选择找到你刚刚安装的office版本，必须是完全一致才行，选择完点击安装许可证</p>
+<p>许可证安装完毕填写kms服务器<code>kms.03k.org</code>点击应用</p>
+<p>不出意外几秒过后右侧便会提示应用成功</p>
+<p>打开office，在文件——账户内<br><a href="https://imgchr.com/i/Gqbqxg" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/12/Gqbqxg.png" alt="Gqbqxg.png"></a><br>便可以看见激活状态了</p>
+<h2 id="二、windows激活"><a href="#二、windows激活" class="headerlink" title="二、windows激活"></a>二、windows激活</h2><p>这里提供两个激活工具给大家<br><a href="https://pan.baidu.com/s/1QLIPBAtx7853NrOQ4oOeWg" target="_blank" rel="noopener">win7、8激活</a>提取码：4h7x<br><a href="https://pan.baidu.com/s/1xku6D-35A6pISA-R8TFCOw" target="_blank" rel="noopener">win10激活</a>提取码：haln</p>
+<p>都是傻瓜式激活，直接点击激活即可</p>
 ]]></content>
       <categories>
         <category>电脑</category>
