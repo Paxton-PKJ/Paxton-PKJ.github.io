@@ -70,7 +70,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">1.5k字</span>
+            <span class="post-count">1.7k字</span>
         </span>
     </span>
 
@@ -79,7 +79,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">5分钟</span>
+            <span class="post-count">6分钟</span>
         </span>
     </span>
 </div>
@@ -104,53 +104,60 @@
       
 
       
-      <h4 id="一、下载安装"><a href="#一、下载安装" class="headerlink" title="一、下载安装"></a>一、下载安装</h4><p>实现hexo + github的博客搭建需要下载一些东西<br><strong>Node.js</strong>：<a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/</a><br><strong>git for windows</strong>，国内用官网下载会比较慢，这里我们用镜像站下载：<a href="https://npm.taobao.org/mirrors/git-for-windows" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows</a></p>
-<h4 id="二、github注册"><a href="#二、github注册" class="headerlink" title="二、github注册"></a>二、github注册</h4><p>github是世界著名的代码托管网站，我们可以巧用他提供的pages服务来搭建我们的个人博客。<br><strong>（1）github注册</strong><br>github官网：<a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a><br>注册一个账号并取一个好听的名字（与后面建站的地址有关，注意不要使用”_”）  </p>
-<p><strong>（2）新建仓库</strong><br><a href="https://imgchr.com/i/GDBneO" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/05/GDBneO.md.png" alt="GDBneO.md.png"></a><br>点击左侧的new新建一个代码仓库（上图）  </p>
-<p><a href="https://imgchr.com/i/GDBaTg" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/05/GDBaTg.md.png" alt="GDBaTg.md.png"></a><br>注意上图左侧红圈位置应当填写<code>用户名.github.io</code>，（错误将导致博客无法访问）例如你的用户名是mike-123那么你的仓库名就要是<code>mike-123.github.io</code>那么以后你的博客访问地址就是<code>http://mike-123.github.io</code>了</p>
+      <h2 id="一、下载安装"><a href="#一、下载安装" class="headerlink" title="一、下载安装"></a>一、下载安装</h2><p>实现hexo + github的博客搭建需要下载一些东西<br><strong>Node.js</strong>：<a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/</a><br><strong>git for windows</strong>，国内用官网下载会比较慢，这里我们用镜像站下载：<a href="https://npm.taobao.org/mirrors/git-for-windows" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows</a></p>
+<h2 id="二、github"><a href="#二、github" class="headerlink" title="二、github"></a>二、github</h2><p>github是世界著名的代码托管网站，我们可以巧用他提供的pages服务来搭建我们的个人博客。</p>
+<h3 id="（1）github注册"><a href="#（1）github注册" class="headerlink" title="（1）github注册"></a>（1）github注册</h3><p>github官网：<a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a><br>注册一个账号并取一个好听的名字（与后面建站的地址有关，注意不要使用 “ _ “ ）  </p>
+<h3 id="（2）新建仓库"><a href="#（2）新建仓库" class="headerlink" title="（2）新建仓库"></a>（2）新建仓库</h3><p><img src="https://s1.ax1x.com/2020/04/05/GDBneO.md.png" alt="GDBneO.md.png"><br>点击左侧的new新建一个代码仓库（上图）  </p>
+<p><img src="https://s1.ax1x.com/2020/04/05/GDBaTg.md.png" alt="GDBaTg.md.png"><br>注意上图左侧红圈位置应当填写<code>用户名.github.io</code>，（错误将导致博客无法访问）例如你的用户名是mike-123那么你的仓库名就要是<code>mike-123.github.io</code>那么以后你的博客访问地址就是<code>http://mike-123.github.io</code></p>
 <p>仓库创建成功不会立即生效，需要过一小段时间</p>
 <p>创建成功后，默认会在你这个仓库里生成一些示例页面，以后你的网站所有代码都是放在这个仓库里啦</p>
-<h4 id="三、本地配置"><a href="#三、本地配置" class="headerlink" title="三、本地配置"></a>三、本地配置</h4><p>网站的存储解决了，接下来就要进行本地的配置了  </p>
-<p><font color=red>以下所有命令均在git bash程序中执行</font></p>
-<p><strong>（1）配置SSH key</strong><br>ssh key可以让你在上传新的网页版本的时候免去繁琐的账号密码的输入过程，一个命令即可上传<br><a href="https://imgchr.com/i/GD61MR" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/05/GD61MR.png" alt="GD61MR.png"></a><br>首先先找到<strong>Git Bash</strong>这个程序并打开  </p>
+<h2 id="三、本地配置"><a href="#三、本地配置" class="headerlink" title="三、本地配置"></a>三、本地配置</h2><p>网站的存储解决了，接下来就要进行本地的配置了  </p>
+<p><font color=red size=4><strong>以下所有命令均在git bash程序中执行</strong></font></p>
+<h3 id="（1）配置SSH-key"><a href="#（1）配置SSH-key" class="headerlink" title="（1）配置SSH key"></a>（1）配置SSH key</h3><p>ssh key可以让你在上传新的网页版本的时候免去繁琐的账号密码的输入过程，一个命令即可上传<br><img src="https://s1.ax1x.com/2020/04/05/GD61MR.png" alt="GD61MR.png"><br>首先先找到<strong>Git Bash</strong>这个程序并打开  </p>
 <p>输入<code>$ cd ~/. ssh</code>来检查你的电脑上是否已经存在<strong>ssh key</strong></p>
 <p>如果提示：<strong>No such file or directory</strong> 说明你是第一次使用git。需要继续执行下述操作</p>
-<p>输入<code>ssh-keygen -t rsa -C &quot;注册github的邮件地址填在这里&quot;</code>连续回车即可</p>
-<p>输入<code>vim ~/.ssh/id_rsa.pub</code>来查看你的ssh keys复制最上面一部分文字即可，后面的~符号不用理会</p>
-<p>打开你的github主页，进入settings -&gt; SSH and GPG keys -&gt; New SSH key：<br><a href="https://imgchr.com/i/GD2edP" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/05/GD2edP.png" alt="GD2edP.png"></a><a href="https://imgchr.com/i/GD2KJS" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/05/GD2KJS.png" alt="GD2KJS.png"></a><br>将你的ssh key粘贴，title可以不管，保存即可</p>
-<p>测试是否成功，输入<code>$ ssh -T git@github.com #此处邮箱地址不需要更改</code></p>
-<p>接着输yes，如果提示”Hi XXX! You’ve successfully authenticated, but GitHub does not provide shell access.”表示ssh key应用成功</p>
-<p>此时还需要输入两行命令<br><code>$ git config --global user.name &quot;Paxton-PKJ&quot;     #你的github用户名，非昵称</code><br><code>$ git config --global user.email  &quot;xxx@qq.com&quot;    #填写你的github注册邮箱</code></p>
+<p>输入<code>ssh-keygen -t rsa -C &quot;注册github的邮件地址填在引号内&quot;</code>连续回车即可</p>
+<p>输入<code>vim ~/.ssh/id_rsa.pub</code>来查看你的ssh keys复制最上面一部分文字即可，后面的~符号不用理会，复制后按<kbd>Ctrl</kbd>+<kbd>z</kbd>退出界面</p>
+<p>打开你的github主页，进入 <strong>settings  -&gt;  SSH and GPG keys  -&gt;  New SSH key：</strong></p>
+<p><img src="https://s1.ax1x.com/2020/04/05/GD2edP.png" alt="GD2edP.png">)<img src="https://s1.ax1x.com/2020/04/05/GD2KJS.png" alt="GD2KJS.png"></p>
+<p>将你的ssh key粘贴，title可以不管，保存即可</p>
+<p>测试是否成功，输入<code>$ ssh -T git@github.com</code>（直接复制粘贴，<font color=red>邮箱地址不需要更改</font>）</p>
+<p>接着输yes，如果提示<br><code>Hi XXX! You&#39;ve successfully authenticated, but GitHub does not provide shell access.</code><br>表示ssh key应用成功</p>
+<p>此时还需要输入两行命令</p>
+<p><code>$ git config --global user.name &quot;XXXXXX&quot;</code><strong><font color=red>引号内部填写你的github用户名</font></strong></p>
+<p><code>$ git config --global user.email  &quot;XXXXX@xx.com&quot;</code><strong><font color=red>引号内部填写你注册github的邮箱</font></strong></p>
 <p>到此ssh keys配置完毕 </p>
-<p><strong>(2)配置hexo</strong></p>
-<p>首先通过命令安装hexo<code>$ npm install -g hexo</code> </p>
-<p>在电脑的某个地方新建一个名为hexo的文件夹（名字可以随便取），比如我的是D:\hexo，<strong>由于这个文件夹将来就作为你存放网页代码的地方</strong>，所以最好不要随便放。</p>
-<p>输入<code>$ cd /d/hexo</code>进入hexo文件目录，这里要根据你刚刚创建的文件夹的位置来改写命令，假设你放在 E:\新建文件夹，那么就要写成<code>$ cd /e/新建文件夹</code></p>
+<h3 id="2-配置hexo"><a href="#2-配置hexo" class="headerlink" title="(2)配置hexo"></a>(2)配置hexo</h3><p>首先通过命令安装hexo<code>$ npm install -g hexo</code> </p>
+<p>在电脑的某个地方新建一个名为hexo的文件夹（名字可以随便取），比如我的是D:\hexo，<strong>由于这个文件夹将来就作为你存放网页代码的地方</strong>，所以最好不要随便放</p>
+<p>输入<code>$ cd /d/hexo</code>进入hexo文件目录，这里要根据你刚刚创建的文件夹的位置来改写命令</p>
+<p>例、<br>放置位置：E:\新建文件夹—————命令：<code>$ cd /e/新建文件夹</code><br>放置位置：D:\hexo\233\新建文件夹—————命令：<code>$ cd /d/hexo/233/新建文件夹</code></p>
 <p>继续输入<code>$ hexo init</code></p>
-<p>hexo会自动下载一些文件到这个目录<br><a href="https://imgchr.com/i/GDhu0s" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/05/GDhu0s.png" alt="GDhu0s.png"></a></p>
-<p><code>$ hexo g  #生成网页静态文件</code><br><code>$ hexo s  #启动网页预览服务</code></p>
-<p>执行完上述命令后，hexo就会在public文件夹生成相关html文件，这些文件将来都是要提交到github去的</p>
-<p>hexo s是开启本地预览服务，执行命令后打开浏览器访问 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 即可看到你的网页内容，很多人会碰到浏览器一直在转圈但是就是加载不出来的问题，一般情况下是因为4000端口占用的缘故，百度解决即可</p>
-<p><a href="https://imgchr.com/i/GDh44P" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/05/GDh44P.md.png" alt="GDh44P.md.png"></a></p>
+<p>hexo会自动下载一些文件到这个目录<br><img src="https://s1.ax1x.com/2020/04/05/GDhu0s.png" alt="GDhu0s.png"></p>
+<p>继续输入<br><code>hexo g</code>  生成网页静态文件<br><code>hexo s</code>  启动网页预览服务</p>
+<p>执行完上述命令后，hexo就会在public文件夹生成相关html文件，这些文件将来都是要提交到github去的你的网站的源文件</p>
+<p><code>hexo s</code>开启本地预览服务后，可打开浏览器访问 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 预览你的网页内容，如果碰到浏览器一直在转圈但是就是加载不出来的问题，一般情况下是因为4000端口占用的缘故，百度解决即可</p>
+<p><img src="https://s1.ax1x.com/2020/04/05/GDh44P.md.png" alt="GDh44P.md.png"></p>
 <p>第一次初始化的时候hexo已经帮我们写了一篇名为 Hello World 的文章，默认的主题比较丑，打开时就是上图这个样子</p>
-<p><strong>（3）配置_config.yml</strong><br><a href="https://imgchr.com/i/GD4G5t" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/05/GD4G5t.png" alt="GD4G5t.png"></a></p>
-<p>打开文件目录下的_config.yml文件（如上图），往下滑动找到<code>deploy:</code></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: #此处按照下图填写</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<h3 id="（3）配置-config-yml"><a href="#（3）配置-config-yml" class="headerlink" title="（3）配置_config.yml"></a>（3）配置_config.yml</h3><p><a href="https://imgchr.com/i/GD4G5t" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/05/GD4G5t.png" alt="GD4G5t.png"></a><br>打开文件目录下的_config.yml文件（如上图），往下滑动找到<code>deploy:</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository:        #此处按照下图填写</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 <p>repository应填内容可在你的仓库中找到，如下图</p>
-<p><a href="https://imgchr.com/i/GD4IaR" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/05/GD4IaR.png" alt="GD4IaR.png"></a></p>
-<p><font color=red>注意 “ : ” 后都带有一个空格，repository部分不能填写https链接</font></p>
+<p><img src="https://s1.ax1x.com/2020/04/05/GD4IaR.png" alt="GD4IaR.png"></p>
+<p><strong><font color=red>注意 “ : ” 后都带有一个空格</font></strong><br><strong><font color=red>repository部分不能填写https链接</font>，要填写上图所示的ssh链接</strong></p>
 <p>到此全部配置完毕</p>
-<h4 id="四、上传到github"><a href="#四、上传到github" class="headerlink" title="四、上传到github"></a>四、上传到github</h4><p>输入<code>npm install hexo-deployer-git --save</code>安装上传插件</p>
-<p>如果你之前的内容都全部确实地完成了，那么现在一个命令就可以上传了</p>
-<p>安装完毕输入<code>$ hexo d -g</code>即可上传到github，注意输入命令前，<strong>确保已经cd进入了hexo文件存放目录</strong>，即hexo配置部分创建的文件夹</p>
-<h4 id="五、新建博文"><a href="#五、新建博文" class="headerlink" title="五、新建博文"></a>五、新建博文</h4><p>同样还是先cd进入你的hexo文件目录，输入 <code>hexo new &#39;my-first-blog&#39;</code>就会生成一篇名为“my-first-blog”的新博文，只需要按照他给的路径找到这个文件并打开编写即可</p>
+<h2 id="四、上传到github"><a href="#四、上传到github" class="headerlink" title="四、上传到github"></a>四、上传到github</h2><p>若仍然处于预览网页内容状态，按<kbd>ctrl</kbd>+<kbd>c</kbd>即可退出预览</p>
+<p>输入<code>npm install hexo-deployer-git --save</code>安装上传插件</p>
+<p>如果你之前的内容都全部确实地完成了，那么现在一个命令就可以上传了，如果上传失败，<strong>请仔细一项项检查是否全部完成上述步骤</strong></p>
+<p>安装完毕输入<code>hexo d -g</code>即可上传到github，注意输入命令前，<strong>确保已经cd进入了hexo根目录</strong>，即hexo配置部分创建的文件夹</p>
+<h2 id="五、新建博文"><a href="#五、新建博文" class="headerlink" title="五、新建博文"></a>五、新建博文</h2><p>同样还是先cd进入你的hexo根目录，输入 <code>hexo new &#39;my-first-blog&#39;</code>就会生成一篇名为“my-first-blog”的新博文，只需要按照他给的路径找到这个文件并打开编写即可</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: postName                #文章页面上的显示名称，一般是中文</span><br><span class="line">date: 2013-12-02 15:30:16      #文章生成时间，一般不改，当然也可以任意修改</span><br><span class="line">categories: 默认分类            #分类</span><br><span class="line">tags: [tag1,tag2,tag3]          #文章标签，可空，多标签请用格式，注意 &quot; : &quot; 后面有个空格</span><br><span class="line">description:                    #附加一段文章摘要，字数最好在140字以内，会出现在meta的description里面,可写可不写</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">以下是正文</span><br></pre></td></tr></table></figure>
-<p>写完保存用<code>hexo d -g</code>命令上传即可，上传后通常需要等30-60秒才会应用到你的网页，最后可以通过我们之前提到的那个个人网址来查看你的博客。</p>
-<h4 id="六、主题更换"><a href="#六、主题更换" class="headerlink" title="六、主题更换"></a>六、主题更换</h4><p>你以为文章就到此结束了吗？</p>
+<p>写完保存用<code>hexo d -g</code>命令上传即可，上传后通常需要等<strong>30-60秒</strong>才会应用到你的网页，最后可以通过我们之前提到的那个个人网址来查看你的博客。</p>
+<p>hexo博客使用<strong>markdown</strong>语法，推荐编辑器使用<strong>visual studio code</strong></p>
+<p>附：<a href="https://zhuanlan.zhihu.com/p/99462672?utm_source=wechat_session&utm_medium=social&utm_oi=1171497945580519424" target="_blank" rel="noopener"><strong>vs code不可缺少的十大插件</strong></a></p>
+<h2 id="六、主题更换"><a href="#六、主题更换" class="headerlink" title="六、主题更换"></a>六、主题更换</h2><p>你以为文章就到此结束了吗？</p>
 <p>不不不，想要打造和我一样的爆款博客只有初始简陋主题怎么行</p>
 <p>输入<code>git clone https://github.com/Shen-Yu/hexo-theme-ayer.git themes/ayer</code>来安装和我一样的ayer主题</p>
 <p>更多主题自行百度即可</p>
-<p><a href="https://imgchr.com/i/G5ePUJ" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/04/09/G5ePUJ.png" alt="G5ePUJ.png"></a><br>主题下载完成后需要把hexo根目录下的_config.yml内的theme的值修改为对应的主题名称即可</p>
+<p><img src="https://s1.ax1x.com/2020/04/09/G5ePUJ.png" alt="G5ePUJ.png"><br>主题下载完成后需要把hexo根目录下的_config.yml内的theme的值修改为对应的主题名称即可，如上图</p>
 <p>最后hexo d -g上传，你的精美个人博客就搭建完成了</p>
 
       
