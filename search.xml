@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>心事2020.4.14</title>
-    <url>/2020/04/14/%E5%BF%83%E4%BA%8B2020.04.14/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">需要浏览密码.</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="a19244f65ce597c519de18d6e64e7f65db06f39146e1ecb00896d697f126be7f">cd05fabe0f287f2bda1a71a59cda30e9b7125c2505c2c68b2aa4ecedd46c87e8</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>加密</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Windows折腾记二——Microsoft office的正版安装以及win10系统激活方法</title>
     <url>/2020/04/12/Windows%E6%8A%98%E8%85%BE%E8%AE%B0%E4%BA%8C%E2%80%94%E2%80%94Microsoft%20office%E7%9A%84%E6%AD%A3%E7%89%88%E5%AE%89%E8%A3%85%E5%8F%8Awin10%E7%B3%BB%E7%BB%9F%E6%BF%80%E6%B4%BB%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<h2 id="一、Microsoft-office的正版安装与激活（非破解）"><a href="#一、Microsoft-office的正版安装与激活（非破解）" class="headerlink" title="一、Microsoft office的正版安装与激活（非破解）"></a>一、Microsoft office的正版安装与激活（非破解）</h2><p>不管是个人电脑还是办公电脑，office是不可缺少的一套软件，但因为它的正版价格昂贵，使得许多人投入了wps的怀抱，但是出于对广告的厌恶，今天我便来谈谈怎么通过白嫖方法免费使用正版office软件</p>
@@ -200,6 +184,7 @@
       </categories>
       <tags>
         <tag>教程</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
