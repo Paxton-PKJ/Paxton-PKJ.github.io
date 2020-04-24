@@ -52,12 +52,12 @@
 </li>
 <li><p>方法二、系统PE安装法（全新）</p>
 <blockquote>
-<p>系统PE安装法（全新）适用于电脑<strong>可以开机</strong>的情况，<strong>不需要u盘</strong>，PE系统直接安装在硬盘内，这个方法同样适用所有xp、7、8、8.1、10的windows系统安装，<strong>不保留用户数据</strong>，PE系统可重复使用     </p>
+<p>系统PE安装法（全新）适用于电脑<strong>可以开机</strong>的情况，<strong>不需要u盘</strong>，PE系统直接安装在硬盘内，这个方法同样适用所有xp、7、8、8.1、10的windows系统安装，<strong>不保留用户数据</strong>，PE系统不可重复使用     </p>
 </blockquote>
 </li>
-<li><p>方法三、直接安装法（可选全新或保留）</p>
+<li><p>方法三、直接安装法（可选全新或保留）（不推荐）</p>
 <blockquote>
-<p>直接安装法适用于电脑<strong>可以正常启动</strong>的情况，安装过程中可选择是否保留用户数据，不需要U盘，只用于win10系统安装</p>
+<p>直接安装法适用于电脑<strong>可以正常启动</strong>的情况，安装过程中可选择是否保留用户数据，不需要U盘，只用于win10系统安装，安装后容易出现系统错误</p>
 </blockquote>
 </li>
 </ul>
