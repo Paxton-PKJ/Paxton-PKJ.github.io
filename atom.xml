@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://paxton-pkj.github.io/"/>
-  <updated>2020-04-22T02:17:31.493Z</updated>
+  <updated>2020-04-30T01:07:24.496Z</updated>
   <id>https://paxton-pkj.github.io/</id>
   
   <author>
@@ -17,11 +17,72 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Windows折腾记二——Microsoft office的正版安装与激活</title>
-    <link href="https://paxton-pkj.github.io/2020/04/12/Windows%E6%8A%98%E8%85%BE%E8%AE%B0%E4%BA%8C%E2%80%94%E2%80%94Microsoft%20office%E7%9A%84%E6%AD%A3%E7%89%88%E5%AE%89%E8%A3%85%E5%8F%8Awin10%E7%B3%BB%E7%BB%9F%E6%BF%80%E6%B4%BB%E6%96%B9%E6%B3%95/"/>
-    <id>https://paxton-pkj.github.io/2020/04/12/Windows%E6%8A%98%E8%85%BE%E8%AE%B0%E4%BA%8C%E2%80%94%E2%80%94Microsoft%20office%E7%9A%84%E6%AD%A3%E7%89%88%E5%AE%89%E8%A3%85%E5%8F%8Awin10%E7%B3%BB%E7%BB%9F%E6%BF%80%E6%B4%BB%E6%96%B9%E6%B3%95/</id>
+    <title>简单的单文件版exe制作</title>
+    <link href="https://paxton-pkj.github.io/2020/04/30/%E7%AE%80%E5%8D%95%E7%9A%84%E5%8D%95%E6%96%87%E4%BB%B6%E7%89%88exe%E5%88%B6%E4%BD%9C/"/>
+    <id>https://paxton-pkj.github.io/2020/04/30/%E7%AE%80%E5%8D%95%E7%9A%84%E5%8D%95%E6%96%87%E4%BB%B6%E7%89%88exe%E5%88%B6%E4%BD%9C/</id>
+    <published>2020-04-30T03:24:22.000Z</published>
+    <updated>2020-04-30T01:07:24.496Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这篇教程适用于简单的不涉及注册表的软件制作成单文件版，本文以火绒弹窗拦截为例&lt;/p&gt;
+&lt;h2 id=&quot;一、下载软件&quot;&gt;&lt;a href=&quot;#一、下载软件&quot; class=&quot;headerlink&quot; title=&quot;一、下载软件&quot;&gt;&lt;/a&gt;&lt;font
+        
+      
+    
+    </summary>
+    
+    
+      <category term="电脑" scheme="https://paxton-pkj.github.io/categories/%E7%94%B5%E8%84%91/"/>
+    
+    
+      <category term="教程" scheme="https://paxton-pkj.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="windows" scheme="https://paxton-pkj.github.io/tags/windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>windows系统广告弹窗拦截</title>
+    <link href="https://paxton-pkj.github.io/2020/04/21/%E7%B3%BB%E7%BB%9F%E5%B9%BF%E5%91%8A%E5%BC%B9%E7%AA%97%E6%8B%A6%E6%88%AA/"/>
+    <id>https://paxton-pkj.github.io/2020/04/21/%E7%B3%BB%E7%BB%9F%E5%B9%BF%E5%91%8A%E5%BC%B9%E7%AA%97%E6%8B%A6%E6%88%AA/</id>
+    <published>2020-04-21T01:24:22.000Z</published>
+    <updated>2020-04-29T23:54:44.135Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://s1.ax1x.com/2020/04/26/J6rV3R.png&quot; alt=&quot;J6rV3R.png&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://s1.ax1x.com/2020/04/26/J6Dv3n.png&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="电脑" scheme="https://paxton-pkj.github.io/categories/%E7%94%B5%E8%84%91/"/>
+    
+    
+      <category term="教程" scheme="https://paxton-pkj.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="推荐" scheme="https://paxton-pkj.github.io/tags/%E6%8E%A8%E8%8D%90/"/>
+    
+      <category term="windows" scheme="https://paxton-pkj.github.io/tags/windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Microsoft office 2019的安装与激活</title>
+    <link href="https://paxton-pkj.github.io/2020/04/12/Microsoft%20office%E7%9A%84%E6%AD%A3%E7%89%88%E5%AE%89%E8%A3%85/"/>
+    <id>https://paxton-pkj.github.io/2020/04/12/Microsoft%20office%E7%9A%84%E6%AD%A3%E7%89%88%E5%AE%89%E8%A3%85/</id>
     <published>2020-04-12T03:00:22.000Z</published>
-    <updated>2020-04-22T02:17:31.493Z</updated>
+    <updated>2020-04-25T23:47:33.259Z</updated>
     
     <summary type="html">
     
@@ -46,11 +107,11 @@
   </entry>
   
   <entry>
-    <title>Windows折腾记一——Windows系统的几个安装方法以及windows系统的激活</title>
-    <link href="https://paxton-pkj.github.io/2020/04/11/Windows%E6%8A%98%E8%85%BE%E8%AE%B0%E4%B8%80%E2%80%94%E2%80%94%E5%AE%89%E8%A3%85windows%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/"/>
-    <id>https://paxton-pkj.github.io/2020/04/11/Windows%E6%8A%98%E8%85%BE%E8%AE%B0%E4%B8%80%E2%80%94%E2%80%94%E5%AE%89%E8%A3%85windows%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</id>
+    <title>Windows系统的三个安装方法以及Windows系统的激活</title>
+    <link href="https://paxton-pkj.github.io/2020/04/11/%E5%AE%89%E8%A3%85windows%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E6%B3%95%E4%BB%A5%E5%8F%8Awindows%E6%BF%80%E6%B4%BB/"/>
+    <id>https://paxton-pkj.github.io/2020/04/11/%E5%AE%89%E8%A3%85windows%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E6%B3%95%E4%BB%A5%E5%8F%8Awindows%E6%BF%80%E6%B4%BB/</id>
     <published>2020-04-11T14:00:22.000Z</published>
-    <updated>2020-04-24T05:16:03.526Z</updated>
+    <updated>2020-04-30T00:16:11.354Z</updated>
     
     <summary type="html">
     
@@ -75,11 +136,11 @@
   </entry>
   
   <entry>
-    <title>Chrome折腾记二——几个常用插件的推荐以及插件安装的第三种方法</title>
-    <link href="https://paxton-pkj.github.io/2020/04/05/Chrome%E6%8A%98%E8%85%BE%E8%AE%B0%E4%BA%8C%E2%80%94%E2%80%94%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6%E7%9A%84%E6%8E%A8%E8%8D%90%E4%BB%A5%E5%8F%8A%E6%8F%92%E4%BB%B6%E7%9A%84%E7%AC%AC%E4%B8%89%E7%A7%8D%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/"/>
-    <id>https://paxton-pkj.github.io/2020/04/05/Chrome%E6%8A%98%E8%85%BE%E8%AE%B0%E4%BA%8C%E2%80%94%E2%80%94%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6%E7%9A%84%E6%8E%A8%E8%8D%90%E4%BB%A5%E5%8F%8A%E6%8F%92%E4%BB%B6%E7%9A%84%E7%AC%AC%E4%B8%89%E7%A7%8D%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/</id>
+    <title>几个常用浏览器插件的推荐以及插件安装的最简便方法</title>
+    <link href="https://paxton-pkj.github.io/2020/04/05/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6%E7%9A%84%E6%8E%A8%E8%8D%90%E4%BB%A5%E5%8F%8A%E6%8F%92%E4%BB%B6%E7%9A%84%E7%AC%AC%E4%B8%89%E7%A7%8D%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/"/>
+    <id>https://paxton-pkj.github.io/2020/04/05/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6%E7%9A%84%E6%8E%A8%E8%8D%90%E4%BB%A5%E5%8F%8A%E6%8F%92%E4%BB%B6%E7%9A%84%E7%AC%AC%E4%B8%89%E7%A7%8D%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/</id>
     <published>2020-04-05T01:00:22.000Z</published>
-    <updated>2020-04-13T04:30:49.422Z</updated>
+    <updated>2020-04-29T23:55:42.680Z</updated>
     
     <summary type="html">
     
@@ -101,6 +162,8 @@
       <category term="教程" scheme="https://paxton-pkj.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="浏览器" scheme="https://paxton-pkj.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+      <category term="推荐" scheme="https://paxton-pkj.github.io/tags/%E6%8E%A8%E8%8D%90/"/>
     
   </entry>
   
@@ -134,11 +197,11 @@
   </entry>
   
   <entry>
-    <title>Chrome折腾记一：Chrome系浏览器的灵魂——插件的安装方法</title>
-    <link href="https://paxton-pkj.github.io/2020/04/04/Chrome%E6%8A%98%E8%85%BE%E8%AE%B0%E4%B8%80%E2%80%94%E2%80%94Chrome%E7%B3%BB%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%81%B5%E9%AD%82%E2%80%94%E2%80%94%E6%8F%92%E4%BB%B6%E7%9A%84%E5%AE%89%E8%A3%85/"/>
-    <id>https://paxton-pkj.github.io/2020/04/04/Chrome%E6%8A%98%E8%85%BE%E8%AE%B0%E4%B8%80%E2%80%94%E2%80%94Chrome%E7%B3%BB%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%81%B5%E9%AD%82%E2%80%94%E2%80%94%E6%8F%92%E4%BB%B6%E7%9A%84%E5%AE%89%E8%A3%85/</id>
+    <title>Chromium系浏览器的灵魂——插件的安装方法</title>
+    <link href="https://paxton-pkj.github.io/2020/04/04/Chromium%E5%86%85%E6%A0%B8%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%81%B5%E9%AD%82%E2%80%94%E2%80%94%E6%8F%92%E4%BB%B6%E7%9A%84%E5%AE%89%E8%A3%85/"/>
+    <id>https://paxton-pkj.github.io/2020/04/04/Chromium%E5%86%85%E6%A0%B8%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%81%B5%E9%AD%82%E2%80%94%E2%80%94%E6%8F%92%E4%BB%B6%E7%9A%84%E5%AE%89%E8%A3%85/</id>
     <published>2020-04-04T03:00:22.000Z</published>
-    <updated>2020-04-13T04:07:29.816Z</updated>
+    <updated>2020-04-25T23:46:16.489Z</updated>
     
     <summary type="html">
     

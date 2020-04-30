@@ -1,8 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Windows折腾记二——Microsoft office的正版安装与激活</title>
-    <url>/2020/04/12/Windows%E6%8A%98%E8%85%BE%E8%AE%B0%E4%BA%8C%E2%80%94%E2%80%94Microsoft%20office%E7%9A%84%E6%AD%A3%E7%89%88%E5%AE%89%E8%A3%85%E5%8F%8Awin10%E7%B3%BB%E7%BB%9F%E6%BF%80%E6%B4%BB%E6%96%B9%E6%B3%95/</url>
+    <title>简单的单文件版exe制作</title>
+    <url>/2020/04/30/%E7%AE%80%E5%8D%95%E7%9A%84%E5%8D%95%E6%96%87%E4%BB%B6%E7%89%88exe%E5%88%B6%E4%BD%9C/</url>
+    <content><![CDATA[<p>这篇教程适用于简单的不涉及注册表的软件制作成单文件版，本文以火绒弹窗拦截为例</p>
+<h2 id="一、下载软件"><a href="#一、下载软件" class="headerlink" title="一、下载软件"></a><font color=orange>一、下载软件</font></h2><p>图标终结者：<a href="https://dl.pconline.com.cn/download/425207-1.html" target="_blank" rel="noopener">https://dl.pconline.com.cn/download/425207-1.html</a>  </p>
+<p>任意压缩软件，建议winrar：<a href="http://www.winrar.com.cn/" target="_blank" rel="noopener">http://www.winrar.com.cn/</a>  </p>
+<h2 id="二、提取文件"><a href="#二、提取文件" class="headerlink" title="二、提取文件"></a><font color=orange>二、提取文件</font></h2><p>新建一个文件夹，首先先把exe文件拖进去，以火绒弹窗拦截为例</p>
+<p>先去<kbd>C:\Program Files (x86)\Huorong\Sysdiag\bin</kbd>找到弹窗拦截的exe文件  PopBlock.exe</p>
+<p><img src="https://s1.ax1x.com/2020/04/30/JHoLod.png" alt="JHoLod.png"></p>
+<p>把它复制出来到一个单独的文件夹里面</p>
+<p>双击运行，接着就会开始提示文件缺失，将缺失的文件全都从上图的文件夹中复制出来</p>
+<p>同时为了防止出现不明bug，建议也将与PopBlock.exe文件名相似的文件都复制出来，譬如上图的popblock.ui等等pop开头的文件</p>
+<p>所有文件提取完成，如下图</p>
+<p><img src="https://s1.ax1x.com/2020/04/30/JHTOnU.png" alt="JHTOnU.png">  </p>
+<h2 id="三、提取图标"><a href="#三、提取图标" class="headerlink" title="三、提取图标"></a><font color=orange>三、提取图标</font></h2><p>打开我们已经下载好的图标终结者</p>
+<p>文件-打开-选择PopBlock.exe</p>
+<p><img src="https://s1.ax1x.com/2020/04/30/JHHAx0.png" alt="JHHAx0.png"></p>
+<p>将其保存备用</p>
+<h2 id="四、文件制作"><a href="#四、文件制作" class="headerlink" title="四、文件制作"></a><font color=orange>四、文件制作</font></h2><p>全选提取出来的文件，右键选择<strong>添加到压缩文件</strong></p>
+<p><img src="https://s1.ax1x.com/2020/04/30/JHHJsK.png" alt="JHHJsK.png"></p>
+<p>按照图示设置，压缩文件名会影响后面生成的exe的文件名</p>
+<p><img src="https://s1.ax1x.com/2020/04/30/JHbPeO.png" alt="JHbPeO.png"></p>
+<p>选择 高级-自解压选项</p>
+<p>提取后运行设置为已经提取出来的文件中的exe文件，本例中即为PopBlock.exe</p>
+<p><img src="https://s1.ax1x.com/2020/04/30/JHbQ0S.png" alt="JHbQ0S.png"></p>
+<p>继续按图设置</p>
+<p><img src="https://s1.ax1x.com/2020/04/30/JHb6pR.png" alt="JHb6pR.png">)<img src="https://s1.ax1x.com/2020/04/30/JHbItH.png" alt="JHbItH.png"><br><img src="https://s1.ax1x.com/2020/04/30/JHbbct.png" alt="JHbbct.png"></p>
+<p>上图中的图标选择我们第三步中提取出来的图标</p>
+<p>全部设置完成后，确定，等待压缩完成，便会生成一个新的exe文件，文件名即为你一开始设置的名字，这个单个的新exe文件就具有那一堆文件的功能</p>
+<p>制作完成</p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>windows系统广告弹窗拦截</title>
+    <url>/2020/04/21/%E7%B3%BB%E7%BB%9F%E5%B9%BF%E5%91%8A%E5%BC%B9%E7%AA%97%E6%8B%A6%E6%88%AA/</url>
+    <content><![CDATA[<p><img src="https://s1.ax1x.com/2020/04/26/J6rV3R.png" alt="J6rV3R.png"><br><img src="https://s1.ax1x.com/2020/04/26/J6Dv3n.png" alt="J6Dv3n.png"><br><img src="https://s1.ax1x.com/2020/04/26/J6Dj9s.png" alt="J6Dj9s.png"><br><img src="https://s1.ax1x.com/2020/04/26/J6BLS1.png" alt="J6BLS1.png"></p>
+<p>有没有很眼熟？(￣_,￣ )</p>
+<p>上网这么多年，广告肯定没少见，这里推一个软件的小功能，可以在软件打开的一瞬间迅速关闭它</p>
+<p>只要你的电脑配置不是传说级的差，你基本看不到弹窗的出现</p>
+<p>没错，它就是<a href="https://www.huorong.cn/person5.html" target="_blank" rel="noopener">火绒安全软件</a></p>
+<p>下载并打开火绒  </p>
+<p><img src="https://s1.ax1x.com/2020/04/26/J6rG8A.png" alt="J6rG8A.png">  </p>
+<p>点击右下角<strong>安全工具</strong>进入工具箱</p>
+<p><img src="https://s1.ax1x.com/2020/04/26/J6rUDf.png" alt="J6rUDf.png"></p>
+<p>找到右上角<strong>弹窗拦截</strong></p>
+<p>打开后就可以自动拦截流氓软件的弹窗啦</p>
+<p><img src="https://s1.ax1x.com/2020/04/30/JH42dA.png" alt="JH42dA.png"></p>
+<p>另外记得在右上角下拉菜单里面打开设置查看是否已设置开机启动，这样每次开机就可以自动帮你拦截弹窗了</p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>推荐</tag>
+        <tag>windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Microsoft office 2019的安装与激活</title>
+    <url>/2020/04/12/Microsoft%20office%E7%9A%84%E6%AD%A3%E7%89%88%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<h2 id="一、Microsoft-office的正版安装与激活（非破解）"><a href="#一、Microsoft-office的正版安装与激活（非破解）" class="headerlink" title="一、Microsoft office的正版安装与激活（非破解）"></a>一、Microsoft office的正版安装与激活（非破解）</h2><p>不管是个人电脑还是办公电脑，office是不可缺少的一套软件，但因为它的正版价格昂贵，使得许多人投入了wps的怀抱，但是出于对广告的厌恶，今天我便来谈谈怎么通过白嫖方法免费使用正版office软件</p>
 <h3 id="（1）工具下载"><a href="#（1）工具下载" class="headerlink" title="（1）工具下载"></a>（1）工具下载</h3><p>这里我推荐一个office的下载工具<a href="https://otp.landian.vip/zh-cn/" target="_blank" rel="noopener">office tool plus</a>这个工具可以很方便地下载office的原版纯净安装文件</p>
 <p>下载完成并解压，右键以<strong>管理员身份</strong>打开文件夹内的<strong>Office Tool Plus.exe</strong><br><img src="https://s1.ax1x.com/2020/04/12/GqyQF1.png" alt="GqyQF1.png"></p>
@@ -38,8 +103,8 @@
       </tags>
   </entry>
   <entry>
-    <title>Windows折腾记一——Windows系统的几个安装方法以及windows系统的激活</title>
-    <url>/2020/04/11/Windows%E6%8A%98%E8%85%BE%E8%AE%B0%E4%B8%80%E2%80%94%E2%80%94%E5%AE%89%E8%A3%85windows%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</url>
+    <title>Windows系统的三个安装方法以及Windows系统的激活</title>
+    <url>/2020/04/11/%E5%AE%89%E8%A3%85windows%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E6%B3%95%E4%BB%A5%E5%8F%8Awindows%E6%BF%80%E6%B4%BB/</url>
     <content><![CDATA[<p>2020年1月14日，微软正式对win 7停止了支持，一代传奇win 7就此结束生命，随着win 7的支持结束，随之而来的安全问题不容小觑，升级系统迫在眉睫，连微软都少见地通过全屏流氓警告来<strong>提（wei）醒（xie）</strong>升级了</p>
 <p><img src="https://s1.ax1x.com/2020/04/11/GbYHu6.jpg" alt="GbYHu6.jpg"></p>
 <p>试想打着游戏的时候突然来这么一下是个什么酸爽的感觉<br>所以今天我便来讲讲win10系统的安装/升级。</p>
@@ -96,9 +161,9 @@
 <h2 id="方法三：直接安装法（直接升级）"><a href="#方法三：直接安装法（直接升级）" class="headerlink" title="方法三：直接安装法（直接升级）"></a>方法三：直接安装法（直接升级）</h2><h3 id="（1）下载系统下载器"><a href="#（1）下载系统下载器" class="headerlink" title="（1）下载系统下载器"></a>（1）下载系统下载器</h3><p><a href="https://www.microsoft.com/zh-cn/software-download/windows10" target="_blank" rel="noopener">微软官方win10下载器</a><br>点击按钮下载即可</p>
 <h3 id="（2）系统安装"><a href="#（2）系统安装" class="headerlink" title="（2）系统安装"></a>（2）系统安装</h3><p>直接按照工具引导进行即可，注意<font color=red><strong>C盘应至少留有10GB空余空间才可进行安装</strong></font>（最好15GB以上，小于10GB可能出现安装失败）</p>
 <h1 id="二、windows激活"><a href="#二、windows激活" class="headerlink" title="二、windows激活"></a>二、windows激活</h1><p>这里提供两个激活工具给大家</p>
-<p><font size=5><a href="https://paxton-pkj.lanzous.com/ibqou6h" target="_blank" rel="noopener">win7、8激活</a>  </font></p>
+<p><font size=5 color=orange>win7、8激活</font><br>蓝奏（优先）：<a href="https://paxton-pkj.lanzous.com/ibqou6h" target="_blank" rel="noopener">https://paxton-pkj.lanzous.com/ibqou6h</a><br>度盘（备用）：<a href="https://pan.baidu.com/s/1b6lnX_AnuZEp1FIVdbSMqQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1b6lnX_AnuZEp1FIVdbSMqQ</a><br>提取码: hu8u    解压密码：Paxton_PKJ</p>
 <p><img src="https://s1.ax1x.com/2020/04/22/JY5nqH.png" alt="JY5nqH.png"><br>直接点击开始体验正版就可以了，亲测无毒</p>
-<p><font size=5><a href="https://paxton-pkj.lanzous.com/ibqouvc" target="_blank" rel="noopener">win10激活</a>  </font></p>
+<p><font size=5 color=orange>win10激活</font><br>蓝奏（优先）：<a href="https://paxton-pkj.lanzous.com/ibqouvc" target="_blank" rel="noopener">https://paxton-pkj.lanzous.com/ibqouvc</a><br>度盘（备用）：<a href="https://pan.baidu.com/s/1JbgohnFm46RDg8ujwwzpug" target="_blank" rel="noopener">https://pan.baidu.com/s/1JbgohnFm46RDg8ujwwzpug</a><br>提取码: wubb    解压密码：Paxton_PKJ  </p>
 <p><img src="https://s1.ax1x.com/2020/04/22/JY4rKe.png" alt="JY4rKe.png"><br>点击<strong>数字激活</strong>按钮等待片刻即可激活完成，因为我已经激活过来所以上面提示了不需要激活</p>
 ]]></content>
       <categories>
@@ -110,17 +175,17 @@
       </tags>
   </entry>
   <entry>
-    <title>Chrome折腾记二——几个常用插件的推荐以及插件安装的第三种方法</title>
-    <url>/2020/04/05/Chrome%E6%8A%98%E8%85%BE%E8%AE%B0%E4%BA%8C%E2%80%94%E2%80%94%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6%E7%9A%84%E6%8E%A8%E8%8D%90%E4%BB%A5%E5%8F%8A%E6%8F%92%E4%BB%B6%E7%9A%84%E7%AC%AC%E4%B8%89%E7%A7%8D%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/</url>
+    <title>几个常用浏览器插件的推荐以及插件安装的最简便方法</title>
+    <url>/2020/04/05/%E5%87%A0%E4%B8%AA%E5%B8%B8%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6%E7%9A%84%E6%8E%A8%E8%8D%90%E4%BB%A5%E5%8F%8A%E6%8F%92%E4%BB%B6%E7%9A%84%E7%AC%AC%E4%B8%89%E7%A7%8D%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<p><strong>前排提示：装完谷歌上网助手之后可以先跳到最后看第三种安装方法</strong></p>
-<h2 id="一、谷歌上网助手"><a href="#一、谷歌上网助手" class="headerlink" title="一、谷歌上网助手"></a>一、谷歌上网助手</h2><p>说到插件，最不能不提的就是这谷歌访问助手，可以让你几乎以感受不到墙的存在而访问谷歌服务（别的你就别想了我知道你在想什么,(￣_￣)、 ）<br><img src="https://s1.ax1x.com/2020/04/06/GsPCw9.png" alt="GsPCw9.png"></p>
+<h2 id="一、谷歌上网助手"><a href="#一、谷歌上网助手" class="headerlink" title="一、谷歌上网助手"></a>一、谷歌上网助手</h2><p>说到插件，最不能不提的就是这谷歌访问助手，可以让你几乎以感受不到墙的存在而访问谷歌服务（除了谷歌以外的你就别想了我知道你在想什么,(￣_￣)、 ）<br><img src="https://s1.ax1x.com/2020/04/06/GsPCw9.png" alt="GsPCw9.png"></p>
 <p>有图有真相<br><img src="https://s1.ax1x.com/2020/04/06/GsPVSK.md.png" alt="GsPVSK.md.png"></p>
 <p>注意安装完插件之后需要登录</p>
 <h2 id="二、广告终结者-adblock"><a href="#二、广告终结者-adblock" class="headerlink" title="二、广告终结者 / adblock"></a>二、广告终结者 / adblock</h2><p>你还在因为满屏广告而苦恼吗？这个插件可以解你忧愁（两款插件效果类似，我比较喜欢前者）</p>
 <p><img src="https://s1.ax1x.com/2020/04/06/Gsi8E9.png" alt="Gsi8E9.png"><br>（上图为广告终结者）</p>
 <p><img src="https://s1.ax1x.com/2020/04/06/GsF3M8.md.png" alt="GsF3M8.md.png"><br>屏蔽前（红圈处均为广告）</p>
 <p><img src="https://s1.ax1x.com/2020/04/06/GsFtaj.md.png" alt="GsFtaj.md.png"><br>屏蔽后，干净清爽</p>
-<p>对于不想看到的部分还可以在右键手动屏蔽</p>
+<p>对于不想看到的部分还可以右键手动屏蔽</p>
 <h2 id="三、tampermonkey（油猴）"><a href="#三、tampermonkey（油猴）" class="headerlink" title="三、tampermonkey（油猴）"></a>三、tampermonkey（油猴）</h2><p>油猴是用来加载一些额外添加的代码的，可以给你的某个网络页面加入各种功能，譬如网页美化，一键下载，vip解析等等</p>
 <p><strong>总之装他就对了</strong></p>
 <p><img src="https://s1.ax1x.com/2020/04/06/GsmVp9.png" alt="GsmVp9.png"></p>
@@ -139,6 +204,7 @@
       <tags>
         <tag>教程</tag>
         <tag>浏览器</tag>
+        <tag>推荐</tag>
       </tags>
   </entry>
   <entry>
@@ -209,8 +275,8 @@
       </tags>
   </entry>
   <entry>
-    <title>Chrome折腾记一：Chrome系浏览器的灵魂——插件的安装方法</title>
-    <url>/2020/04/04/Chrome%E6%8A%98%E8%85%BE%E8%AE%B0%E4%B8%80%E2%80%94%E2%80%94Chrome%E7%B3%BB%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%81%B5%E9%AD%82%E2%80%94%E2%80%94%E6%8F%92%E4%BB%B6%E7%9A%84%E5%AE%89%E8%A3%85/</url>
+    <title>Chromium系浏览器的灵魂——插件的安装方法</title>
+    <url>/2020/04/04/Chromium%E5%86%85%E6%A0%B8%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%81%B5%E9%AD%82%E2%80%94%E2%80%94%E6%8F%92%E4%BB%B6%E7%9A%84%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<p>说到上网，每个人的电脑上都一定会有“浏览器”这一类软件。</p>
 <p>国内比较常见的浏览器有QQ、搜狗、360、百分等等，这些都是chromium内核的浏览器即chrome系，换句话来说，就是谷歌浏览器<strong>换了个皮肤，还慢的一批</strong>，不过再怎么说他们本质上还是<strong>谷歌浏览器</strong>，还是可以安装谷歌浏览器支持的各种插件的。  </p>
 <p>  什么？你和我说你不知道插件是什么？<br>  <strong><em><del>你这么多年网白上了。</del></em></strong>   </p>
