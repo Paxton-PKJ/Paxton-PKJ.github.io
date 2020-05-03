@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>巧用onedrive同步win10任意文件夹</title>
+    <url>/2020/05/03/%E5%B7%A7%E7%94%A8onedrive%E5%90%8C%E6%AD%A5win10%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E5%A4%B9/</url>
+    <content><![CDATA[<p>自从百度网盘的同步功能下线后，我就把目光盯上了win10自带的onedrive，但是一番操作后，发现只能将文件拖动到电脑上的“onedrive”文件夹中，才会将其备份到云端，并不能自行设置，但是，windows从来就不缺骚操作嘿嘿嘿</p>
+<h2 id="一、原理"><a href="#一、原理" class="headerlink" title="一、原理"></a>一、原理</h2><p>这里我们使用一个cmd命令</p>
+<pre><code>mklink /j  &quot;A文件夹位置&quot; &quot;B文件夹位置&quot;</code></pre><p>这段命令的意思就是，将A文件夹设置为B文件夹的创建目录连接点</p>
+<p>简单来说就是，双击A文件夹，打开的是B文件夹，但是这与快捷方式又不相同，具体详见百度</p>
+<h2 id="二、操作"><a href="#二、操作" class="headerlink" title="二、操作"></a>二、操作</h2><p>首先打开你的onedrive本地文件夹</p>
+<p><img src="https://s1.ax1x.com/2020/05/03/JzEtV1.png" alt="JzEtV1.png"></p>
+<p>选择你想把文件放入的分类</p>
+<blockquote>
+<p>例如我现在想同步我的吉他曲谱，就在Documents文件夹里面新建一个“吉他曲谱”文件夹，点击地址栏记录下这个文件夹的位置，那么这个文件夹就是<strong>A文件夹</strong>了</p>
+</blockquote>
+<blockquote>
+<p><strong><font color=red>注意复制完地址后删除掉该文件夹</font>，即“吉他曲谱”</strong></p>
+</blockquote>
+<p><img src="https://s1.ax1x.com/2020/05/03/JzVcy4.png" alt="JzVcy4.png"></p>
+<p>接着找到你想要进行同步的文件夹，同样的操作复制文件地址，这个文件夹就是<strong>B文件夹</strong>了</p>
+<p><img src="https://s1.ax1x.com/2020/05/03/JzZ91S.png" alt="JzZ91S.png"></p>
+<p>接着按<kbd>win</kbd>+<kbd>r</kbd>快捷键调出“运行”窗口</p>
+<p><img src="https://s1.ax1x.com/2020/05/03/JzZyNt.png" alt="JzZyNt.png"></p>
+<p>输入<strong>cmd</strong>并回车，调出命令提示符窗口</p>
+<p>输入一下内容并回车<br>‘’’<br>mklink /j “C:\Users\52563\OneDrive\Documents\吉他曲谱” “E:\学习\吉他\曲谱”<br>‘’’<br><img src="https://s1.ax1x.com/2020/05/03/Jzmc6S.png" alt="Jzmc6S.png"></p>
+<p>到此就可以使用onedrive实现不移动文件同步任意文件夹了<br><img src="https://s1.ax1x.com/2020/05/03/JzmLm4.png" alt="JzmLm4.png"></p>
+]]></content>
+      <categories>
+        <category>电脑</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>windows</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>简单的单文件版exe制作</title>
     <url>/2020/04/30/%E7%AE%80%E5%8D%95%E7%9A%84%E5%8D%95%E6%96%87%E4%BB%B6%E7%89%88exe%E5%88%B6%E4%BD%9C/</url>
     <content><![CDATA[<p>这篇教程适用于简单的不涉及注册表的软件制作成单文件版，本文以火绒弹窗拦截为例</p>

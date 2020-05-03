@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://paxton-pkj.github.io/"/>
-  <updated>2020-04-30T01:07:24.496Z</updated>
+  <updated>2020-05-03T03:13:44.756Z</updated>
   <id>https://paxton-pkj.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>巧用onedrive同步win10任意文件夹</title>
+    <link href="https://paxton-pkj.github.io/2020/05/03/%E5%B7%A7%E7%94%A8onedrive%E5%90%8C%E6%AD%A5win10%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E5%A4%B9/"/>
+    <id>https://paxton-pkj.github.io/2020/05/03/%E5%B7%A7%E7%94%A8onedrive%E5%90%8C%E6%AD%A5win10%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E5%A4%B9/</id>
+    <published>2020-05-03T02:24:22.000Z</published>
+    <updated>2020-05-03T03:13:44.756Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;自从百度网盘的同步功能下线后，我就把目光盯上了win10自带的onedrive，但是一番操作后，发现只能将文件拖动到电脑上的“onedrive”文件夹中，才会将其备份到云端，并不能自行设置，但是，windows从来就不缺骚操作嘿嘿嘿&lt;/p&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+      <category term="电脑" scheme="https://paxton-pkj.github.io/categories/%E7%94%B5%E8%84%91/"/>
+    
+    
+      <category term="教程" scheme="https://paxton-pkj.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="windows" scheme="https://paxton-pkj.github.io/tags/windows/"/>
+    
+  </entry>
   
   <entry>
     <title>简单的单文件版exe制作</title>
